@@ -1,9 +1,9 @@
 const get = require('@androz2091/insta.js');
 const moment = require('moment-timezone')
 const time = moment().format('HH:mm:ss')
-const { color } = require('./lib/color')
+const { color } = require('color.js')
 const { performance } = require('perf_hooks')
-const { getBuffer } = require('./lib/¿');
+const { getBuffer } = require('¿.js');
 const fs = require("fs");
 const fetch = require('node-fetch');
 const request = require('request');
