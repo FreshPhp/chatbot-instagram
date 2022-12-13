@@ -1,6 +1,6 @@
-const fs = require('fs')
-const fetch = require('node-fetch')
-const axios = require('axios')
+const fs = require('fs');
+const fetch = require('node-fetch');
+const axios = require('axios');
 
 exports.fetchJson = async (url, options) => {
     try {
@@ -23,7 +23,6 @@ exports.fetchText = fetchText = (url, options) => new Promise(async (resolve, re
     fetch(url, options)
         .then(response => response.text())
         .then(text => {
-            // console.log(text)
             resolve(text)
         })
         .catch((err) => {
